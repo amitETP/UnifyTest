@@ -1,0 +1,3 @@
+"After bill cancellation ,we compare the Expected Result from UI with  the Actual Result from DB."
+"InvoiceNumber from UI","InvoiceNumber from DB","Result"
+"BCSG0524108","SRSG0524855","Failed"

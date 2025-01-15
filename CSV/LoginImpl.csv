@@ -1,0 +1,2 @@
+txt_userName,loc_userName,txt_userPassword,loc_userPassword,loc_loginButton,loc_selectGroup,loc_selectGroup,message
+prajwal.madhavi@etpgroup.com,txtusername,Etp@12345,inputPassword,btnLogin,Sylphy Training,"//p[contains(text(),' Sylphy Training')]",Welcome back EGS Enterprise!

@@ -1,0 +1,19 @@
+Expected ,Actual ,Result
+Please Enter Email Id To Login,Please Enter Email Id To Login,Passed
+Please Enter Password To Login,Please Enter Password To Login,Passed
+Please Enter Email Id And Password To Login,Please Enter Email Id and Password To Login,Passed
+Login Error- User is blocked / Inactive please contact HR / IT Manager.,Login Error- User is blocked / Inactive please contact HR / IT Manager.,Passed
+"Please Enter Email Id To Login","Please Enter Email Id To Login","Passed"
+"Please Enter Password To Login","Please Enter Password To Login","Passed"
+"Please Enter Email Id And Password To Login","Please Enter Email Id and Password To Login","Passed"
+"Login Error- User is blocked / Inactive please contact HR / IT Manager.","Login Error- User is blocked / Inactive please contact HR / IT Manager.","Passed"
+"Please Enter Email Id To Login","Please Enter Email Id To Login","Passed"
+"Please Enter Password To Login","Please Enter Password To Login","Passed"
+"Please Enter Email Id And Password To Login","Please Enter Email Id and Password To Login","Passed"
+"Please Enter Password To Login","Please Enter Password To Login","Passed"
+"Please Enter Email Id And Password To Login","Please Enter Email Id and Password To Login","Passed"
+"Login Error- User is blocked / Inactive please contact HR / IT Manager.","Login Error- User is blocked / Inactive please contact HR / IT Manager.","Passed"
+"Please Enter Email Id To Login","Please Enter Email Id To Login","Passed"
+"Please Enter Password To Login","Please Enter Password To Login","Passed"
+"Please Enter Email Id And Password To Login","Please Enter Email Id and Password To Login","Passed"
+"Login Error- User is blocked / Inactive please contact HR / IT Manager.","Login Error- User is blocked / Inactive please contact HR / IT Manager.","Passed"

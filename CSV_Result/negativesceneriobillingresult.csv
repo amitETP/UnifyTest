@@ -1,0 +1,8 @@
+Actual ,Expected ,Result
+PLEASE SELECT PRIMARY SALES PERSON TO PROCEED PRODUCT SEARCH,PLEASE SELECT PRIMARY SALES PERSON TO PROCEED PRODUCT SEARCH,Passed
+PLEASE SELECT CUSTOMER TO PROCEED PRODUCT SEARCH,PLEASE SELECT CUSTOMER TO PROCEED PRODUCT SEARCH,Passed
+Product Not Found,Product Not Found,Passed
+No Record Available,No Record Available,Passed
+"Partial Payment Is Not Allowed, Please Make 460 Payment",Partial Payment Is Not Allowed,Failed
+"Revised Sales Price Can Not Be Zero","Revised Sales Price Can Not Be Zero","Passed"
+"Secondary Sales Person should not be same as Primary Sales Person","Secondary Sales Person should not be same as Primary Sales Person","Passed"

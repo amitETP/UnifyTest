@@ -1,0 +1,7 @@
+"While doing bill save,we compare the  Expected Result from UI with  the Actual Result from DB."
+"RRP from UI ","RRP from DB","Result"
+"600.00","600.00","Passed"
+"NetAmount from UI ","NetAmount from DB","Result"
+"605.00","605.00","Passed"
+"Invoice Number from UI ","Invoice Number from DB","Result"
+"BISG05241757","BISG05241757","Passed"

@@ -1,0 +1,2 @@
+custname,productname,message1,prosearch,expectedresult2,custname2,productsearch2,message2,custname3,message3,custname4,proname2,revisedprice,message4,custname5,message5,custname6,prodname7,message6
+Abhi,FA1101,PLEASE SELECT PRIMARY SALES PERSON TO PROCEED PRODUCT SEARCH,FA1101,PLEASE SELECT CUSTOMER TO PROCEED PRODUCT SEARCH,Abhi,gcjx,Product Not Found,Jayin,No Record Available,Abhi,FA1101,0,Revised Sales Price Can Not Be Zero,Abhi,Secondary Sales Person should not be same as Primary Sales Person,Abhi,FA01101,Partial Payment Is Not Allowed

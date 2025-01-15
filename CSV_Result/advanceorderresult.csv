@@ -1,0 +1,3 @@
+"After Successful AdvanceOrder ,we compare the Expected Result with  the Actual Result from UI."
+"InvoiceNumber from UI","InvoiceNumber from DB","Result"
+"AOSG0524669","AOSG0524669","Passed"

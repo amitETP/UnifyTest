@@ -1,0 +1,2 @@
+select_store,select_store_name,select_store_value,select_calender,select_calender_value,select_date,select_date_value,select_month,select_year,save_bod,message
+//*[@ng-reflect-placeholder='-Select Store-'],mat-option,Sg03,(//*[@class='mat-datepicker-toggle-default-icon ng-star-inserted'])[1],27 Nov 2024,(//div[@class='mat-calendar-controls']/button)[1],(//td[@role='gridcell'])[1],//div[@class='mat-calendar-controls']/button[2],//td,"//button[contains(text(),' SAVE ')]",Bod Saved Successfully

@@ -1,0 +1,3 @@
+"While doing Shift End,we compare the Expected Result from UI with  the Actual Result from DB."
+"NetAmount from UI","NetAmount from DB","Result"
+"10.0","10.0","Passed"

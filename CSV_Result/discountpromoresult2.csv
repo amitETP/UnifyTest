@@ -1,0 +1,3 @@
+"After discount promotion ,we compare the Expected Result from UI with the Actual Result from DB."
+"InvoiceNumber from UI","InvoiceNumber from DB","Result"
+"BISG05242287","BISG05242287","Passed"
