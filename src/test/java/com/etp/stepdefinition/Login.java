@@ -94,28 +94,7 @@ public class Login extends HelperClass {
 
 	@And("user clicks on group")
 	public void user_clicks_on_group() throws InterruptedException {
-
-//		try {
-//
-//			String CSV_LoginResult = ".\\CSV Output\\loginresult.csv";
-//			reader = new CSVReader(new FileReader(CSV_Login));
-//			String[] cell = reader.readNext();
-//			
-//				while ((cell = reader.readNext()) != null) {
-//					int i = 0;
-//					String loc_selectGroup = cell[i + 5];
-//					
-//					Thread.sleep(6000);
-//					WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-//					WebElement element3 = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),' Sylphy Training')]")));
-//					element3.click();	
-//				}
-//		} catch (Exception e) {
-//			System.out.println("Exception Occured while selecting the group" + " " + e);
-//		}
-	}
-		
-		
+	}	
 	
 	@Then("the login should be successful")
 	public void the_login_should_be_successful() throws Exception {
@@ -132,7 +111,9 @@ public class Login extends HelperClass {
 					String message = cell[i + 7];
 			Thread.sleep(2000);
 			String Value1 = message;
-			Thread.sleep(10000);
+			Thread.sleep(20000);
+			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),' Welcome back  EGS Enterprise!')]")));
 			String loginverify = driver.findElement(By.xpath("//p[contains(text(),' Welcome back  EGS Enterprise!')]")).getText();
 			String Value2 = loginverify;
 			System.out.println(Value1+" "+Value2);
