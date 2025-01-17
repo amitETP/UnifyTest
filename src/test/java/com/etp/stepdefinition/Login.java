@@ -113,8 +113,8 @@ public class Login extends HelperClass {
 			String Value1 = message;
 			Thread.sleep(20000);
 			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),' Welcome back  EGS Enterprise!')]")));
-			String loginverify = driver.findElement(By.xpath("//p[contains(text(),' Welcome back  EGS Enterprise!')]")).getText();
+			WebElement a=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[contains(text(),' Welcome back  EGS Enterprise!')]")));		
+			String loginverify=a.getText();
 			String Value2 = loginverify;
 			System.out.println(Value1+" "+Value2);
 			String result = Value1.equalsIgnoreCase(Value2) ? "Passed" : "Failed";
